@@ -1,63 +1,64 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# component3
+<h1>READ Carefully:</h1>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Component 3 extends on the previous exercises and you are required to now remove the json file and replace with models and a database. You will also have to add authentication and allow for a differentiation in customer and admin type roles. You can make the choice of whether to keep Blade based templates as used in Component 2 or move to an API type scenario and respond directly with json formatted data to Vue driven clients. 
 
-## About Laravel
+<h2>Basic Requirements/Evidences list for component 3:</h2>
+<ul>
+  <li>(Laravel) Models, Views & Controllers</li>
+  <li>Databases</li>
+  <li>Authentication / Users</li>
+  <li>Views (Blade and/or Vue)</li>
+  <li>Version Control and Professional Practice</li>
+</ul>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<h2>Extension Requirements:</h2>
+In the final application you are required to extend the application and update it based on the following supplied set of criterias:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- models and migrations (removing the earlier use of the json file)
+- factories/seeders (for seeding large data sets)
+- routing (named routes)
+- views (blade or Vue )
+- responsive UI/UX
+- controllers (Resource Controllers/ User defined Controllers)
+- authentication
+- password reset
+- authorization (using Gate or authorize)
+- eloquent ORM
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<h2>Extra Features:</h2>
+As an effort to gain excellent marks you may choose to extend the features/functionality of your final project beyond what is asked in the above requirements. You may include any number of features such as - Dual Step Verfication, Mailables/Notifications, Paginations, Payment Gateways, Many to Many relationship, Multiple User Roles, etc. 
 
-## Learning Laravel
+<h2>VIDEO DEMONSTRATION</h2>
+This will be supported with a recorded video presentation where you will discuss your
+findings on using Laravel as framework for developing web applications.
+<ul>
+  <li>The video demonstration should be approx 2 minutes. (max 3minutes). </li>
+  <li>This should be a walkthrough of your application showing implemented functionality using English language for narration.</li> 
+  <li>There is no need to go into details on how it works - this will be left for a QA to support your
+    submission.</li>
+  <li>The video should be submitted to YouTube with a link uploaded to MyBeckett. Make sure to keep the video's visibility as public when you upload.</li>
+</ul>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<h2>Documentation</h2>
+Prepare a brief documentation of your project as a .docx or .pdf file. Here you should simply have a short paragraph and a bullet list of the feautures of your application. And include  a few (3-5)screenshots of your project that highlights your work on UI/UX.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<h2>PROJECT SUBMISSION:</h2>
+<ol>
+  <li>Commit project files in the github repository including the video demo file and documentation file.</li>
+  <li>IN Blackboard/MyBeckket:
+    <ul>
+      <li>Your component 3 remote Git Repository link posted to MyBeckett</li>
+      <li>Your Youtube Video Link for Component 3 Demo Video</li>
+    </ul>
+  </li>
+</ol>
 
-## Laravel Sponsors
+<h2>VIVA</h2>
+To support your submission you are required to do a QA with module staff. This is where
+your knowledge of good practice in development of web applications will be examined.
+Failure to attend a presentation will result in a mark capped at 40% for this component and
+this will be arrived at from the video submission and the associated code files on GitHub.
+<i>You will be informed of the VIVA date, time and instruction via Orbund</i>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<h2>All the best.</h2>
